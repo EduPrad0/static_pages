@@ -11,7 +11,7 @@ btn_toggleTheme.addEventListener("click", () => {
   const colorsText = controllerState ? 'var(--title-signIn-default)' : 'var(--title-signIn-light)'
 
   root.style.background = controllerState ? 'var(--bg-default)' : 'var(--bg-light)';
-  image_footer.setAttribute("src", `../assets/${controllerState ? 'signInDefault' : 'siginInLight'}.svg`);
+  image_footer.setAttribute("src", `../assets/sign/${controllerState ? 'signInDefault' : 'siginInLight'}.svg`);
   forgot.style.color = controllerState ? '#20DF7F' : 'black';
 
   title.style.color = colorsText;
