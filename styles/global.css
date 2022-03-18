@@ -1,0 +1,40 @@
+:root {
+  --bg-light: #e5e5e5;
+  --bg-default:#003445;
+}
+
+
+.form_input {
+  border: 0;
+  border-radius: 10px;
+  background-color: #174957;
+
+  width: 300px;
+  height: 45px;
+  left: 490px;
+  top: 518px;
+}
+
+.form_input:focus {
+  outline: 0;
+  padding: 0.7rem;
+}
+
+.form_input::placeholder {
+  color: white;
+  padding-left: 0.8rem;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn_person {
+  background: inherit;
+  color: inherit;
+
+  border: 0;
+  border-radius: 10px;
+  width: 300px;
+  height: 45px;
+  left: 490px;
+  top: 518px;
+
+}

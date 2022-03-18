@@ -1,0 +1,105 @@
+:root {
+  --title-signIn-default: #FFFFFF;
+  --title-signIn-light: #224957;
+}
+
+#root {
+  min-height: 100vh;
+  background: var(--bg-default);
+}
+
+.toggleThemeButton {
+  z-index: 3;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  left: 1.5rem;
+  bottom: 1.4rem;
+}
+
+footer img {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+main h3{
+  color: var(--title-signIn-default);
+  font-family: 'Lexend Deca', sans-serif;
+
+  font-size: 64px;
+  line-height: 80px;
+  line-height: 100%;
+  align-items: center;
+  vertical-align: top;
+
+  margin-bottom: 2rem;
+
+}
+
+
+form div {
+  margin-top: 2rem;
+}
+
+
+.paragraph_signIn {
+  color: var(--title-signIn-default);
+
+  width: 347px;
+  height: 20px;
+  left: 466px;
+  top: 276px;
+
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  text-align: center;
+
+
+}
+
+
+.forgot_remember {
+  margin-top: -1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forgot_password p {
+  color: #20DF7F;
+  margin: 0;
+}
+.remember {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+#remember_me_check {
+  background-color: var(--title-signIn-light);
+  margin-bottom: 5px;
+}
+
+.remember label {
+  margin-left: 0.5rem;
+}
+
+
+.btn_form {
+  background: #20DF7F;
+  color: #FFF;
+}
